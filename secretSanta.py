@@ -20,7 +20,6 @@ for i in range(len(names)):
 	fname = names[i].replace(' ', '_')
 	cmd = 'echo \"' + names[index] + '\" > ./files/' + fname + '.txt'
 	os.system(cmd)	
-	#print names[index] + '\t' + names[i]
 
 for i in range(0,len(pickednames)-1):
 		if pickednames[i] == pickednames[i+1]:
